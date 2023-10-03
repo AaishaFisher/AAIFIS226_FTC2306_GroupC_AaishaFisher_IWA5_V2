@@ -5,9 +5,9 @@ let NONE_SELECTED = '0';
 
 //About the customer
 const customers = '1';
-const location = 'RSA';
-const shipping = null
-const currency = $;
+const location = 'NK';
+const shipping = null;
+const currency = null;
 
 //What they ordered
 const shoes = (300 * 1);
@@ -17,13 +17,24 @@ const batteries = (35 * 2);
 const pens = (5 * 'NONE_SELECTED') 
 
 //The logic
-if (location = RSA) { shipping === 400 && currency === 'R' }
 
-if location = NAM
-shipping = 600 
-else shipping = 800
+//shipping location logic
+if (location === RSA) {
+    shipping === 400;
+    currency === 'R'
+}
+else if (location === NAM) {
+    shipping = 600 && currency === $
+} else if (location === NK ){
+ alert('BANNED_WARNIN')
+}
+else {
+    shipping = 800
+}
 
 
+
+//free shipping logic
 if (shoes + batteries + pens + shirts > 1000 &&  ) {
 	if (location = NAM && customers < 2) {
 			if (location = RSA)
